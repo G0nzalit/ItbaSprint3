@@ -14,6 +14,9 @@ const getTarjetas = () => {
  fetch("/statics/tarjetas.json").then(response => {return response.json()})
 
  .then(data => {setTarjetas(data)
+
+  console.log('Datos obtenidos:', data);
+
       })
       
  
@@ -27,8 +30,9 @@ const getTarjetas = () => {
       <Header />
       <Sidebar />
       <h2>Aca van las tarjetas</h2>
+      
       <ul>
-      {Tarjetas.map(t => (
+      {tarjetas.map(t => (
         <li key={`${t.empresa}:${t.numero}`}>
           <Link href={`/main/tarjetas/${t.numero}`}>
             {t.empresa}: {t.numero} 

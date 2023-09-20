@@ -28,7 +28,7 @@ const getCuentas = () => {
       <Sidebar />
       <h2>Aca van las Cuentas</h2>
       <ul>
-      {Cuentas.map(t => (
+      {cuentas.map(t => (
         <li key={`${t.empresa}:${t.numero}`}>
           <Link href={`/main/cuentas/${t.numero}`}>
             {t.empresa}: {t.numero} 
