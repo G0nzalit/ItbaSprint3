@@ -1,23 +1,41 @@
-// pages/main/tarjetas/page.jsx
 
-import Link from 'next/link';
-import tarjetasData from './creditcard.json';
+'use client'
+import Link from 'next/link'
+import { useEffect, useState } from 'react'
+import Sidebar from '/components/Sidebar';
+import Header from '/components/Header';
 
-const TarjetasPage = () => {
+
+export default function Tarjetas () {
+
+const [tarjetas, setTarjetas] = useState([])
+const getTarjetas = () => { 
+ 
+ fetch("/statics/tarjetas.json").then(response => {return response.json()})
+
+ .then(data => {setTarjetas(data)
+      })
+      
+ 
+    }
+ 
+ useEffect(() => {getTarjetas()}, [])
+ 
+ 
   return (
-    <div>
-      <h1>Lista de Tarjetas</h1>
+   <div className="Tarjetas">
+      <Header />
+      <Sidebar />
+      <h2>Aca van las tarjetas</h2>
       <ul>
-        {tarjetasData.tarjetas.map((tarjeta) => (
-          <li key={tarjeta.id}>
-            <Link href={`/main/tarjetas/${tarjeta.id}`}>
-              <a>{tarjeta.nombre}</a>
-            </Link>
-          </li>
-        ))}
+      {Tarjetas.map(t => (
+        <li key={`${t.empresa}:${t.numero}`}>
+          <Link href={`/main/tarjetas/${t.numero}`}>
+            {t.empresa}: {t.numero} 
+          </Link>
+        </li>
+      ))}
       </ul>
-    </div>
+   </div>
   );
-};
-
-export default TarjetasPage;
+}

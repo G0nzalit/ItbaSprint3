@@ -1,25 +1,30 @@
-// pages/main/tarjetas/[tarjetasId].jsx
 
-import { useRouter } from 'next/router';
-import tarjetasData from './creditcard.json';
 
-const TarjetaPage = () => {
-  const router = useRouter();
-  const { tarjetasId } = router.query;
 
-  // Busca la tarjeta correspondiente en los datos
-  const tarjeta = tarjetasData.tarjetas.find(t => t.id === tarjetasId);
+export default function Tarjeta({params}) {
+const {tarjetaId} = params
+return (
+  <div classname="Tarjeta">
 
-  if (!tarjeta) {
-    return <div>Tarjeta no encontrada</div>;
-  }
+    <h2>Soy una tarjeta</h2>
+    <h6>Mi id es: {tarjetaId}</h6>
+  </div>
 
-  return (
-    <div>
-      <h1>{tarjeta.nombre}</h1>
-      <p>Límite de crédito: {tarjeta.limite}</p>
-    </div>
-  );
-};
 
-export default TarjetaPage;
+
+
+
+
+
+
+)
+
+
+
+
+
+
+
+
+
+}
