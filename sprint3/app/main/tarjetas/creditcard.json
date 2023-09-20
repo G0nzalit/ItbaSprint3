@@ -1,0 +1,22 @@
+{
+    "tarjetas": [
+      {
+        "id": "12312321321321",
+        "nombre": "Amex",
+        "limite": 5000
+      },
+      {
+        "id": "12542357545235",
+        "nombre": "Visa",
+        "limite": 8000
+      },
+      {
+        "id": "5098345h08734",
+        "nombre": "MasterCard",
+        "limite": 10000
+      }
+     
+    ]
+  }
+  
+
