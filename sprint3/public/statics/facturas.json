@@ -1,29 +1,29 @@
 [
     {
       "id": "1",
-      "cliente": "Cliente A",
-      "fecha": "2023-09-21",
-      "monto": 100.00,
+      "cliente": "Telecentro",
+      "fecha": "2023-09-26",
+      "monto": "15.000,00",
       "productos": [
         {
-          "nombre": "Producto 1",
-          "precio": 25.00
+          "nombre": "Telcentro WIFI",
+          "precio": "10.000,00"
         },
         {
-          "nombre": "Producto 2",
-          "precio": 30.00
+          "nombre": "Telecentro T-Play",
+          "precio": "5.000,00"
         }
       ]
     },
     {
       "id": "2",
-      "cliente": "Cliente B",
+      "cliente": "Edenor",
       "fecha": "2023-09-20",
-      "monto": 75.50,
+      "monto": "23.000,00",
       "productos": [
         {
-          "nombre": "Producto 3",
-          "precio": 40.00
+          "nombre": "Servicio de Luz",
+          "precio": "23.000,00"
         }
       ]
     }

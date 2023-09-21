@@ -31,7 +31,7 @@ const getCuentas = () => {
       {cuentas.map(t => (
         <li key={`${t.accountHolderName}:${t.numero}`}>
           <Link href={`/main/cuentas/${t.numero}`}>
-            {t.accountHolderName}: {t.numero} 
+            {t.accountHolderName}
           </Link>
         </li>
       ))}

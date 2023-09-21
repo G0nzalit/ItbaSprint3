@@ -1,16 +1,18 @@
+
 import React from 'react';
 import Header from '../../../components/Header';
 import Sidebar from '../../../components/Sidebar';
+import CalculadoraPrestamos from '../../../components/Prestamos';
 
-const PrestamosPage = () => {
+function PrestamosPage() {
   return (
     <div>
       <Header />
       <Sidebar />
       <h1>Página de Préstamos</h1>
-      {/* Contenido de la página de préstamos */}
+      <CalculadoraPrestamos />
     </div>
   );
-};
+}
 
 export default PrestamosPage;

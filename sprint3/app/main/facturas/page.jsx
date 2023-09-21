@@ -24,7 +24,7 @@ function FacturasList() {
       {facturasData.map((factura) => (
           <li key={`${factura.cliente}:${factura.fecha}`}>
             <Link href={`/main/facturas/${factura.id}`}>
-              {factura.cliente}: {factura.fecha}
+              {factura.cliente} <b>Vencimiento:</b> {factura.fecha}
             </Link>
           </li>
         ))}

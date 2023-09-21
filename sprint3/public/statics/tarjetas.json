@@ -1,18 +1,36 @@
 [
-      {
-        
-          "empresa" : "Visa",
-          "numero" : "22222222222"
-        
-      },
-      {
-        "empresa" : "Amex",
-        "numero" : "11111111111"
-      }
-      
-        
-    
-     
+  {
+    "empresa" : "Amex",
+    "numero" : "11111111111",
+    "vencimiento" : "21/08/25",
+    "saldo$" : "560000",
+    "saldoU$" : "1900"
+
+  },
+{
+
+    "empresa" : "Visa",
+    "numero" : "22222222222",
+    "vencimiento" : "21/08/25",
+    "saldo$" : "320000",
+    "saldoU$" : "1200"
+
+},
+{
+  "empresa" : "Mastercard",
+  "numero" : "33333333333",
+  "vencimiento": "06/03/27",
+  "saldo$" : "250000",
+  "saldoU$" : "500"
+
+},
+{
+  "empresa" : "Hsbc",
+  "numero" : "44444444444",
+  "vencimiento": "07/12/23",
+  "saldo$" : "420000",
+  "saldoU$" : "900"
+}  
     ]
   
 

@@ -1,6 +1,9 @@
 {
-        
+
     "empresa" : "Visa",
-    "numero" : "22222222222"
-  
+    "numero" : "22222222222",
+    "vencimiento" : "21/08/25",
+    "saldo$" : "320000",
+    "saldoU$" : "1200"
+
 }

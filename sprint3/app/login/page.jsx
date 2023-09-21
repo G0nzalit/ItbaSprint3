@@ -1,23 +1,21 @@
 import React from 'react';
 import Header from '/components/Header';
 import Link from 'next/link';
+import LoginForm from 'components/LoginForm';
 
 const AppPage = () => {
   return (
     <div>
       <Header />
       <h1>Página de Inicio de Sesion</h1>
-      {<
+        <LoginForm />
         
         
         
         
         
         
-        ul>
-        <li>
-          <Link href="/main">Iniciar Sesion</Link>
-        </li>
+       { <ul>
         <li>
           <Link href="/">Volver al Landing</Link>
         </li>

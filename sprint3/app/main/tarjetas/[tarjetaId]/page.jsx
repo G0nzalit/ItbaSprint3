@@ -39,7 +39,15 @@ export default function Tarjeta({params}) {
         <li>
           <b>Numero:</b> {tarjeta.numero}
         </li>
-        
+        <li>
+          <b>Fecha de vencimiento:</b> {tarjeta.vencimiento}
+        </li>
+        <li>
+          <b>Saldo en $:</b> {tarjeta.saldo$}
+        </li>
+        <li>
+          <b>Saldo en U$:</b> {tarjeta.saldoU$}
+        </li>
 
 
         </ul>

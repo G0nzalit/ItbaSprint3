@@ -28,9 +28,14 @@ export default function Cuenta({params}) {
       <h2>Soy una Cuenta</h2>
       <ul>
         <li>
-          <b>Cliente:</b> {cuenta.accountHolderName}
+          <b>Tipo de Cuenta:</b> {cuenta.accountHolderName}
         </li>
-
+        <li>
+          <b>Numero:</b> {cuenta.numero}
+        </li>
+        <li>
+          <b>Saldo:</b> {cuenta.saldo}
+        </li>
 
 
 

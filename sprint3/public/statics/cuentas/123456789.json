@@ -1,6 +1,6 @@
 {
-    "id": 1,
-    "numero": "123456789",
-    "accountHolderName": "Juan Pérez",
-    "balance": 5000.0
-  }
+  "tipo": "CC$",
+  "numero": "123456789",
+  "accountHolderName": "Cuenta Corriente en Pesos",
+  "saldo": "$5,000.0"
+}

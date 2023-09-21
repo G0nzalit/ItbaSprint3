@@ -1,6 +1,6 @@
 {
-    "id": 2,
-    "numero": "987654321",
-    "accountHolderName": "María González",
-    "balance": 8000.0
-  }
+  "tipo": "CA$",
+  "numero": "987654321",
+  "accountHolderName": "Caja de ahorro en Pesos",
+  "saldo": "$8,000.0"
+}
