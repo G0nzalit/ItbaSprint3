@@ -9,7 +9,7 @@ const Sidebar = () => {
           <Link href="/main">Home</Link>
         </li>
         <li>
-          <Link href="/main/facturas">Facturas</Link>
+          <Link href="/main/facturas">Pagos</Link>
         </li>
         <li>
           <Link href="/main/cuentas">Cuentas</Link>

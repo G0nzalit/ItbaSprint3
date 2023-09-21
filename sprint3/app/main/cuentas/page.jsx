@@ -29,9 +29,9 @@ const getCuentas = () => {
       <h2>Aca van las Cuentas</h2>
       <ul>
       {cuentas.map(t => (
-        <li key={`${t.empresa}:${t.numero}`}>
+        <li key={`${t.accountHolderName}:${t.numero}`}>
           <Link href={`/main/cuentas/${t.numero}`}>
-            {t.empresa}: {t.numero} 
+            {t.accountHolderName}: {t.numero} 
           </Link>
         </li>
       ))}

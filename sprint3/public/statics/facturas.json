@@ -1,0 +1,31 @@
+[
+    {
+      "id": "1",
+      "cliente": "Cliente A",
+      "fecha": "2023-09-21",
+      "monto": 100.00,
+      "productos": [
+        {
+          "nombre": "Producto 1",
+          "precio": 25.00
+        },
+        {
+          "nombre": "Producto 2",
+          "precio": 30.00
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cliente": "Cliente B",
+      "fecha": "2023-09-20",
+      "monto": 75.50,
+      "productos": [
+        {
+          "nombre": "Producto 3",
+          "precio": 40.00
+        }
+      ]
+    }
+  ]
+  

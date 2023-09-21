@@ -11,7 +11,9 @@ export default function Tarjetas () {
 const [tarjetas, setTarjetas] = useState([])
 const getTarjetas = () => { 
  
- fetch("/statics/tarjetas.json").then(response => {return response.json()})
+ fetch("/statics/tarjetas.json")
+ .then(response => {return response.json()
+  })
 
  .then(data => {setTarjetas(data)
 
