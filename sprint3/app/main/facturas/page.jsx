@@ -18,7 +18,7 @@ function FacturasList() {
     <div>
       <Header />
       <Sidebar />
-      <h1>Lista de Facturas</h1>
+      <h1>Pagos Mis Cuentas</h1>
       <ul>
       
       {facturasData.map((factura) => (

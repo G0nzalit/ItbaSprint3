@@ -31,7 +31,7 @@ const getTarjetas = () => {
    <div className="Tarjetas">
       <Header />
       <Sidebar />
-      <h2>Aca van las tarjetas</h2>
+      <h2>Tarjetas Activas</h2>
       
       <ul>
       {tarjetas.map(t => (

@@ -25,7 +25,7 @@ export default function Cuenta({params}) {
     <div classname="Factura">
       <Header />
       <Sidebar />
-      <h2>Soy una Cuenta</h2>
+      <h2>Detalles de Cuentas</h2>
       <ul>
         <li>
           <b>Tipo de Cuenta:</b> {cuenta.accountHolderName}

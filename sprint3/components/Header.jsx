@@ -7,13 +7,14 @@ const Header = () => {
   return (
     <header>
       <div>
-        {/* Utiliza <Image> en lugar de <img> */}
         <Image
           src={Logo}
           alt="logo del banco"
-          
+          width={200}
+          height={200}
+
         />
-        <h1>Nombre del Banco</h1>
+        <h1>Banco Argentino Sin Inflacion</h1>
       </div>
     </header>
   );

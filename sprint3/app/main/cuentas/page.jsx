@@ -26,7 +26,7 @@ const getCuentas = () => {
    <div className="Cuentas">
       <Header />
       <Sidebar />
-      <h2>Aca van las Cuentas</h2>
+      <h2>Mis Cuentas</h2>
       <ul>
       {cuentas.map(t => (
         <li key={`${t.accountHolderName}:${t.numero}`}>

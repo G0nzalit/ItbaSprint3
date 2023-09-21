@@ -25,7 +25,7 @@ export default function Factura({ params }) {
     <div className="Factura">
       <Header />
       <Sidebar />
-      <h2>Soy una Factura</h2>
+      <h2>Detalles de Factura</h2>
       <ul>
         <li>{factura.cliente}</li>
         <li>

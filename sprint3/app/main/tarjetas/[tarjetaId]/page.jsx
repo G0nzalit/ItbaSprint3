@@ -31,7 +31,7 @@ export default function Tarjeta({params}) {
     <div classname="Tarjeta">
       <Header />
       <Sidebar />
-      <h2>Soy una Tarjeta</h2>
+      <h2>Tarjeta {tarjeta.empresa}</h2>
       <ul>
         <li>
           <b>Empresa:</b> {tarjeta.empresa}

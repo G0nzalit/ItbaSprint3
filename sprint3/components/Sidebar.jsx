@@ -1,12 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
-import './Sidebar.css';
+import './Header.css';
 
 const Sidebar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
+    <nav className='menu'>
+      <ul className='menuL'>
+        <li className='menuLi'>
           <Link href="/main">Home</Link>
         </li>
         <li>

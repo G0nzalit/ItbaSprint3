@@ -1,16 +1,18 @@
 import React from 'react';
-import Header from '../../../components/Header';
-import Sidebar from '../../../components/Sidebar';
+import FormularioSoporte from '/components/Contacto'; // Asumiendo que la ruta del componente es correcta
+import Sidebar from '/components/Sidebar'; // Asumiendo que la ruta del componente es correcta
+import Header from '/components/Header'; // Asumiendo que la ruta del componente es correcta
 
-const ContactoPage = () => {
+function Home() {
   return (
     <div>
       <Header />
       <Sidebar />
-      <h1>Página de Contacto</h1>
-      {/* Contenido de la página de contacto */}
+      <h1>Bienvenido a nuestro homebanking</h1>
+      <p>Por favor, contáctanos si tienes alguna pregunta o comentario:</p>
+      <FormularioSoporte />
     </div>
   );
-};
+}
 
-export default ContactoPage;
+export default Home;

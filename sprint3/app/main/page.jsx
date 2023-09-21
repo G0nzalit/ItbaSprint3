@@ -3,6 +3,17 @@ import Sidebar from '/components/Sidebar';
 import Header from '/components/Header';
 import React, { useState, useRef, useEffect } from 'react';
 
+function Promocion({ titulo, descripcion }) {
+  return (
+    <div className="promocion">
+      <h3>{titulo}</h3>
+      <p>{descripcion}</p>
+    </div>
+  );
+}
+
+
+
 function TasasDeCambio() {
   const [resultado, setResultado] = useState('');
   const [tasasDeCambio, setTasasDeCambio] = useState({});
@@ -61,6 +72,25 @@ function TasasDeCambio() {
 
         <p id="resultado">Resultado: {resultado}</p>
       </div>
+      <section id="novedades">
+      <h2>Novedades</h2>
+      <p>El BCRA dispuso nuevas medidas referentes a canje y/o arbitraje de moneda extranjera y consumos y retiros de efectivo en el exterior con tarjetas de débito. Vigencia 06/05/2016.</p>
+      <p>Nuestro banco incorpora una nueva funcionalidad en su módulo de Comercio Exterior de Online Banking Cash Management.</p>
+    </section>
+    
+    <section id="promociones">
+            <h2>Promociones para ti</h2>
+            <div className="Promocion">
+              <Promocion titulo="Depósito a plazo fijo" descripcion="Tasa preferencial 4% por 3 meses." />
+            </div>
+            <div className="Promocion">
+              <Promocion titulo="Seguro para tu auto" descripcion="20% de descuento en tu seguro anual." />
+            </div>
+            <div className="Promocion">
+              <Promocion titulo="Préstamos personales" descripcion="Sin interés por 3 meses." />
+            </div>
+          </section>
+
     </div>
   );
 }
