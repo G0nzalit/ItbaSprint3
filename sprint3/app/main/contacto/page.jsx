@@ -1,7 +1,7 @@
 import React from 'react';
-import FormularioSoporte from '/components/Contacto'; // Asumiendo que la ruta del componente es correcta
-import Sidebar from '/components/Sidebar'; // Asumiendo que la ruta del componente es correcta
-import Header from '/components/Header'; // Asumiendo que la ruta del componente es correcta
+import FormularioSoporte from '/components/Contacto'; 
+import Sidebar from '/components/Sidebar'; 
+import Header from '/components/Header'; 
 
 function Home() {
   return (

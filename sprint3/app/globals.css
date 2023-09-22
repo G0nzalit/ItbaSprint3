@@ -1,24 +1,24 @@
-/* Estilos para el cuerpo del documento */
+
 body {
-  margin-left: 250px; /* Ancho del menú lateral */
-  padding: 20px; /* Espaciado interior para el contenido principal */
-  width: calc(100% - 250px); /* Ancho del contenido principal (restante) */
+  margin-left: 250px; 
+  padding: 20px; 
+  width: calc(100% - 250px); 
   transition: margin-left 0.3s;
 }
 
-/* Estilos para el menú lateral */
+
 .menu {
-  width: 250px; /* Ancho del menú lateral */
-  background-color: #FFD700; /* Color de fondo */
-  height: 100%; /* Ocupa toda la altura */
-  position: fixed; /* Fijar en la posición */
-  top: 0; /* En la parte superior */
-  left: 0; /* En el borde izquierdo */
-  padding-top: 20px; /* Espacio superior */
+  width: 250px; 
+  background-color: #555;
+  height: 100%; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  padding-top: 20px; 
 }
 
 .menuL {
-  list-style-type: none; /* Quitar viñetas de la lista */
+  list-style-type: none; 
   padding: 0;
 }
 
@@ -26,17 +26,17 @@ body {
   margin-bottom: 10px;
 }
 
-/* Estilos para los enlaces del menú */
+
 .menu a {
-  display: block; /* Hacer que los enlaces ocupen todo el ancho del menú */
-  padding: 10px 20px; /* Espaciado interno */
-  color: #050505; /* Color del texto */
-  text-decoration: none; /* Quitar subrayado de los enlaces */
-  transition: background-color 0.3s; /* Transición de color de fondo */
+  display: block; 
+  padding: 10px 20px; 
+  color: #ffffff; 
+  text-decoration: none; 
+  transition: background-color 0.3s; 
 }
 
 .menu a:hover {
-  background-color: #555; /* Cambiar el color de fondo al pasar el mouse */
+  background-color: #b89f12; 
   
 }
 
@@ -49,13 +49,51 @@ body {
   --background-end-rgb: 255, 255, 255;
 }
 
-/* Estilos para la clase .home */
+
 .home {
   display: flex;
 }
 
-/* Estilos para la clase .content */
+
 .content {
   flex-grow: 1;
   padding: 20px;
+}
+
+
+
+
+
+
+.Header {
+  background-color: #024e9e;
+  color: white;
+  padding: 10px;
+  margin-left: -20px;
+  margin-top: -28px;
+}
+
+.HeaderContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 10%;
+}
+
+.LogoContainer {
+  flex: 2;
+  margin-left: auto;
+}
+
+.TextContainer {
+  flex: 10;
+  text-align:center;
+}
+
+.Header h1 {
+  margin: 0;
+}
+
+.LogoImage {
+  border-radius: 10%;
 }
